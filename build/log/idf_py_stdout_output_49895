@@ -1,0 +1,72 @@
+Command: /home/arde/.espressif/tools/python/v5.5.3/venv/bin/python3 /home/arde/.espressif/v5.5.3/esp-idf/tools/idf_monitor.py -p /dev/ttyACM0 -b 115200 --toolchain-prefix xtensa-esp32s3-elf- --target esp32s3 --revision 0 /home/arde/Storage/Projects/EspServer/build/EspServer.elf /home/arde/Storage/Projects/EspServer/build/bootloader/bootloader.elf -m '/home/arde/.espressif/tools/python/v5.5.3/venv/bin/python3' '/home/arde/.espressif/v5.5.3/esp-idf/tools/idf.py'
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x15 (USB_UART_CHIP_RESET),boot:0x20 (DOWNLOAD(USB/UART0))
+Saved PC:0x40048d17
+waiting for download
+[0;32mI (2982) HTTP_SERVER: Retrying to connect to WiFi...[0m
+[0;32mI (5392) HTTP_SERVER: Retrying to connect to WiFi...[0m
+[0;32mI (7802) HTTP_SERVER: Retrying to connect to WiFi...[0m
+[0;32mI (10212) HTTP_SERVER: Retrying to connect to WiFi...[0m
+[0;32mI (12622) HTTP_SERVER: Retrying to connect to WiFi...[0m
+[0;32mI (15032) HTTP_SERVER: Retrying to connect to WiFi...[0m
+[0;32mI (17442) HTTP_SERVER: Retrying to connect to WiFi...[0m
+[0;32mI (19852) HTTP_SERVER: Retrying to connect to WiFi...[0m
+[0;32mI (22262) HTTP_SERVER: Retrying to connect to WiFi...[0m
+[0;32mI (24672) HTTP_SERVER: Retrying to connect to WiFi...[0m
+[0;32mI (27082) HTTP_SERVER: Retrying to connect to WiFi...[0m
+[0;32mI (29492) HTTP_SERVER: Retrying to connect to WiFi...[0m
+[0;32mI (31902) HTTP_SERVER: Retrying to connect to WiFi...[0m
+[0;32mI (34312) HTTP_SERVER: Retrying to connect to WiFi...[0m
+[0;32mI (36722) HTTP_SERVER: Retrying to connect to WiFi...[0m
+[0;32mI (39132) HTTP_SERVER: Retrying to connect to WiFi...[0m
+[0;32mI (41542) HTTP_SERVER: Retrying to connect to WiFi...[0m
+[0;32mI (43952) HTTP_SERVER: Retrying to connect to WiFi...[0m
+[0;32mI (46362) HTTP_SERVER: Retrying to connect to WiFi...[0m
+[0;32mI (48772) HTTP_SERVER: Retrying to connect to WiFi...[0m
+[0;32mI (51182) HTTP_SERVER: Retrying to connect to WiFi...[0m
+[0;32mI (53592) HTTP_SERVER: Retrying to connect to WiFi...[0m
+[0;32mI (56012) HTTP_SERVER: Retrying to connect to WiFi...[0m
+[0;32mI (58422) HTTP_SERVER: Retrying to connect to WiFi...[0m
+[0;32mI (60832) HTTP_SERVER: Retrying to connect to WiFi...[0m
+[0;32mI (63242) HTTP_SERVER: Retrying to connect to WiFi...[0m
+[0;32mI (65652) HTTP_SERVER: Retrying to connect to WiFi...[0m
+[0;32mI (68062) HTTP_SERVER: Retrying to connect to WiFi...[0m
+[0;32mI (70472) HTTP_SERVER: Retrying to connect to WiFi...[0m
+[0;32mI (72882) HTTP_SERVER: Retrying to connect to WiFi...[0m
+[0;32mI (75292) HTTP_SERVER: Retrying to connect to WiFi...[0m
+[0;32mI (77702) HTTP_SERVER: Retrying to connect to WiFi...[0m
+[0;32mI (80112) HTTP_SERVER: Retrying to connect to WiFi...[0m
+[0;32mI (82522) HTTP_SERVER: Retrying to connect to WiFi...[0m
+[0;32mI (84932) HTTP_SERVER: Retrying to connect to WiFi...[0m
+[0;32mI (87342) HTTP_SERVER: Retrying to connect to WiFi...[0m
+[0;32mI (3002) HTTP_SERVER: Retrying to connect to WiFi...[0m
+[0;32mI (5412) HTTP_SERVER: Retrying to connect to WiFi...[0m
+[0;32mI (7822) HTTP_SERVER: Retrying to connect to WiFi...[0m
+[0;32mI (10232) HTTP_SERVER: Retrying to connect to WiFi...[0m
+[0;32mI (12642) HTTP_SERVER: Retrying to connect to WiFi...[0m
+[0;32mI (15052) HTTP_SERVER: Retrying to connect to WiFi...[0m
+[0;32mI (17462) HTTP_SERVER: Retrying to connect to WiFi...[0m
+[0;32mI (19872) HTTP_SERVER: Retrying to connect to WiFi...[0m
+[0;32mI (22282) HTTP_SERVER: Retrying to connect to WiFi...[0m
+[0;32mI (24692) HTTP_SERVER: Retrying to connect to WiFi...[0m
+[0;32mI (27102) HTTP_SERVER: Retrying to connect to WiFi...[0m
+[0;32mI (29512) HTTP_SERVER: Retrying to connect to WiFi...[0m
+[0;32mI (31922) HTTP_SERVER: Retrying to connect to WiFi...[0m
+[0;32mI (34332) HTTP_SERVER: Retrying to connect to WiFi...[0m
+[0;32mI (36742) HTTP_SERVER: Retrying to connect to WiFi...[0m
+[0;32mI (39152) HTTP_SERVER: Retrying to connect to WiFi...[0m
+[0;32mI (41572) HTTP_SERVER: Retrying to connect to WiFi...[0m
+[0;32mI (43982) HTTP_SERVER: Retrying to connect to WiFi...[0m
+[0;32mI (46392) HTTP_SERVER: Retrying to connect to WiFi...[0m
+[0;32mI (48802) HTTP_SERVER: Retrying to connect to WiFi...[0m
+[0;32mI (51212) HTTP_SERVER: Retrying to connect to WiFi...[0m
+[0;32mI (53622) HTTP_SERVER: Retrying to connect to WiFi...[0m
+[0;32mI (56032) HTTP_SERVER: Retrying to connect to WiFi...[0m
+[0;32mI (58442) HTTP_SERVER: Retrying to connect to WiFi...[0m
+[0;32mI (60852) HTTP_SERVER: Retrying to connect to WiFi...[0m
+[0;32mI (63262) HTTP_SERVER: Retrying to connect to WiFi...[0m
+[0;32mI (65672) HTTP_SERVER: Retrying to connect to WiFi...[0m
+[0;32mI (68082) HTTP_SERVER: Retrying to connect to WiFi...[0m
+[0;32mI (70492) HTTP_SERVER: Retrying to connect to WiFi...[0m
+[0;32mI (72902) HTTP_SERVER: Retrying to connect to WiFi...[0m
