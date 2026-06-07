@@ -1,2 +1,2 @@
-source /home/arde/Storage/Projects/EspServer/build/bootloader/gdbinit/symbols
-source /home/arde/Storage/Projects/EspServer/build/bootloader/gdbinit/connect
+source P:/EspServer/build/bootloader/gdbinit/symbols
+source P:/EspServer/build/bootloader/gdbinit/connect

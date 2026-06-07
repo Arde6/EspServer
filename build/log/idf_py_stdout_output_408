@@ -1,0 +1,76 @@
+Command: cmake -G Ninja -B P:\EspServer\build -DPYTHON_DEPS_CHECKED=1 -DPYTHON=C:\Espressif\tools\python\v6.0\venv\Scripts\python.exe -DESP_PLATFORM=1 -DCCACHE_ENABLE=False P:\EspServer
+-- IDF_TARGET is not set, guessed 'esp32s3' from sdkconfig 'P:/EspServer/sdkconfig'
+-- Found Git: C:/Program Files/Git/cmd/git.exe (found version "2.50.0.windows.1")
+-- Component directory P:/.esp/v6.0/esp-idf/components/mqtt does not contain a CMakeLists.txt file. No component will be added
+-- Minimal build - OFF
+-- The C compiler identification is GNU 15.2.0
+-- The CXX compiler identification is GNU 15.2.0
+-- The ASM compiler identification is GNU
+-- Found assembler: C:/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc.exe
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: C:/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-g++.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- git rev-parse returned 'fatal: not a git repository (or any of the parent directories): .git'
+-- Could not use 'git describe' to determine PROJECT_VER.
+-- Building ESP-IDF components for target esp32s3
+NOTICE: Current idf-component-manager default lock file version is 3.0.0, but found 2.0.0 in P:\EspServer\dependencies.lock. Recreating lock file with the current version.
+NOTICE: Updating lock file at P:\EspServer\dependencies.lock
+NOTICE: Processing 1 dependencies:
+NOTICE: [1/1] idf (6.0.0)
+-- ESP-TEE is currently supported only on the esp32c6;esp32h2;esp32c5;esp32c61 SoCs
+-- KCONFIG_REPORT_VERBOSITY not set, using default
+-- Project sdkconfig file P:/EspServer/sdkconfig
+P:/EspServer/sdkconfig:436 CONFIG_BOOTLOADER_COMPILER_OPTIMIZATION_NONE was replaced with CONFIG_BOOTLOADER_COMPILER_OPTIMIZATION_DEBUG 
+P:/EspServer/sdkconfig:1285 CONFIG_ESP_SYSTEM_MEMPROT_FEATURE was replaced with CONFIG_ESP_SYSTEM_MEMPROT 
+P:/EspServer/sdkconfig:1286 CONFIG_ESP_SYSTEM_MEMPROT_FEATURE_LOCK was replaced with CONFIG_ESP_SYSTEM_MEMPROT_PMS_LOCK 
+-- Compiler supported targets: xtensa-esp-elf
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- App "EspServer" version: 1
+-- Found Python3: C:/Espressif/tools/python/v6.0/venv/Scripts/python.exe (found version "3.12.7") found components: Interpreter
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE
+-- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS
+-- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS - Success
+-- Setting up mbedtls configuration
+-- Linkage type is PUBLIC
+-- Adding linker script P:/.esp/v6.0/esp-idf/components/esp_hal_wdt/esp32s3/rom.wdt.ld
+-- Adding linker script P:/.esp/v6.0/esp-idf/components/esp_system/ld/esp32s3/memory.ld.in
+--   -> Preprocessing .in script: P:/.esp/v6.0/esp-idf/components/esp_system/ld/esp32s3/memory.ld.in
+-- Adding linker script P:/.esp/v6.0/esp-idf/components/esp_system/ld/esp32s3/sections.ld.in
+--   -> Preprocessing .in script: P:/.esp/v6.0/esp-idf/components/esp_system/ld/esp32s3/sections.ld.in
+--   -> Applying ldgen processing: P:/EspServer/build/esp-idf/esp_system/ld/sections.ld.in
+-- Adding linker script P:/.esp/v6.0/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.ld
+-- Adding linker script P:/.esp/v6.0/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.api.ld
+-- Adding linker script P:/.esp/v6.0/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.bt_funcs.ld
+-- Adding linker script P:/.esp/v6.0/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.libgcc.ld
+-- Adding linker script P:/.esp/v6.0/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.version.ld
+-- Adding linker script P:/.esp/v6.0/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.ble_master.ld
+-- Adding linker script P:/.esp/v6.0/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.ble_50.ld
+-- Adding linker script P:/.esp/v6.0/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.ble_smp.ld
+-- Adding linker script P:/.esp/v6.0/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.ble_dtm.ld
+-- Adding linker script P:/.esp/v6.0/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.ble_test.ld
+-- Adding linker script P:/.esp/v6.0/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.ble_scan.ld
+-- Adding linker script P:/.esp/v6.0/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.libc.ld
+-- Adding linker script P:/.esp/v6.0/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.newlib.ld
+-- Adding linker script P:/.esp/v6.0/esp-idf/components/soc/esp32s3/ld/esp32s3.peripherals.ld
+-- Component idf::esp_trace will be linked with -Wl,--whole-archive
+-- Components: app_trace app_update bootloader bootloader_support bt cmock console cxx driver efuse esp-tls esp_adc esp_app_format esp_blockdev esp_bootloader_format esp_coex esp_common esp_driver_ana_cmpr esp_driver_bitscrambler esp_driver_cam esp_driver_dac esp_driver_dma esp_driver_gpio esp_driver_gptimer esp_driver_i2c esp_driver_i2s esp_driver_i3c esp_driver_isp esp_driver_jpeg esp_driver_ledc esp_driver_mcpwm esp_driver_parlio esp_driver_pcnt esp_driver_ppa esp_driver_rmt esp_driver_sd_intf esp_driver_sdio esp_driver_sdm esp_driver_sdmmc esp_driver_sdspi esp_driver_spi esp_driver_touch_sens esp_driver_tsens esp_driver_twai esp_driver_uart esp_driver_usb_serial_jtag esp_eth esp_event esp_gdbstub esp_hal_ana_cmpr esp_hal_ana_conv esp_hal_cam esp_hal_clock esp_hal_dma esp_hal_gpio esp_hal_gpspi esp_hal_i2c esp_hal_i2s esp_hal_ieee802154 esp_hal_jpeg esp_hal_lcd esp_hal_ledc esp_hal_mcpwm esp_hal_mspi esp_hal_parlio esp_hal_pcnt esp_hal_pmu esp_hal_ppa esp_hal_rmt esp_hal_rtc_timer esp_hal_security esp_hal_timg esp_hal_touch_sens esp_hal_twai esp_hal_uart esp_hal_usb esp_hal_wdt esp_hid esp_http_client esp_http_server esp_https_ota esp_https_server esp_hw_support esp_lcd esp_libc esp_local_ctrl esp_mm esp_netif esp_netif_stack esp_partition esp_phy esp_pm esp_psram esp_ringbuf esp_rom esp_security esp_stdio esp_system esp_timer esp_trace esp_usb_cdc_rom_console esp_wifi espcoredump esptool_py fatfs freertos hal heap http_parser idf_test ieee802154 log lwip main mbedtls mdns nvs_flash nvs_sec_provider openthread partition_table perfmon protobuf-c protocomm pthread rt sdmmc soc spi_flash spiffs tcp_transport ulp unity vfs wear_levelling wpa_supplicant xtensa
+-- Component paths: P:/.esp/v6.0/esp-idf/components/app_trace P:/.esp/v6.0/esp-idf/components/app_update P:/.esp/v6.0/esp-idf/components/bootloader P:/.esp/v6.0/esp-idf/components/bootloader_support P:/.esp/v6.0/esp-idf/components/bt P:/.esp/v6.0/esp-idf/components/cmock P:/.esp/v6.0/esp-idf/components/console P:/.esp/v6.0/esp-idf/components/cxx P:/.esp/v6.0/esp-idf/components/driver P:/.esp/v6.0/esp-idf/components/efuse P:/.esp/v6.0/esp-idf/components/esp-tls P:/.esp/v6.0/esp-idf/components/esp_adc P:/.esp/v6.0/esp-idf/components/esp_app_format P:/.esp/v6.0/esp-idf/components/esp_blockdev P:/.esp/v6.0/esp-idf/components/esp_bootloader_format P:/.esp/v6.0/esp-idf/components/esp_coex P:/.esp/v6.0/esp-idf/components/esp_common P:/.esp/v6.0/esp-idf/components/esp_driver_ana_cmpr P:/.esp/v6.0/esp-idf/components/esp_driver_bitscrambler P:/.esp/v6.0/esp-idf/components/esp_driver_cam P:/.esp/v6.0/esp-idf/components/esp_driver_dac P:/.esp/v6.0/esp-idf/components/esp_driver_dma P:/.esp/v6.0/esp-idf/components/esp_driver_gpio P:/.esp/v6.0/esp-idf/components/esp_driver_gptimer P:/.esp/v6.0/esp-idf/components/esp_driver_i2c P:/.esp/v6.0/esp-idf/components/esp_driver_i2s P:/.esp/v6.0/esp-idf/components/esp_driver_i3c P:/.esp/v6.0/esp-idf/components/esp_driver_isp P:/.esp/v6.0/esp-idf/components/esp_driver_jpeg P:/.esp/v6.0/esp-idf/components/esp_driver_ledc P:/.esp/v6.0/esp-idf/components/esp_driver_mcpwm P:/.esp/v6.0/esp-idf/components/esp_driver_parlio P:/.esp/v6.0/esp-idf/components/esp_driver_pcnt P:/.esp/v6.0/esp-idf/components/esp_driver_ppa P:/.esp/v6.0/esp-idf/components/esp_driver_rmt P:/.esp/v6.0/esp-idf/components/esp_driver_sd_intf P:/.esp/v6.0/esp-idf/components/esp_driver_sdio P:/.esp/v6.0/esp-idf/components/esp_driver_sdm P:/.esp/v6.0/esp-idf/components/esp_driver_sdmmc P:/.esp/v6.0/esp-idf/components/esp_driver_sdspi P:/.esp/v6.0/esp-idf/components/esp_driver_spi P:/.esp/v6.0/esp-idf/components/esp_driver_touch_sens P:/.esp/v6.0/esp-idf/components/esp_driver_tsens P:/.esp/v6.0/esp-idf/components/esp_driver_twai P:/.esp/v6.0/esp-idf/components/esp_driver_uart P:/.esp/v6.0/esp-idf/components/esp_driver_usb_serial_jtag P:/.esp/v6.0/esp-idf/components/esp_eth P:/.esp/v6.0/esp-idf/components/esp_event P:/.esp/v6.0/esp-idf/components/esp_gdbstub P:/.esp/v6.0/esp-idf/components/esp_hal_ana_cmpr P:/.esp/v6.0/esp-idf/components/esp_hal_ana_conv P:/.esp/v6.0/esp-idf/components/esp_hal_cam P:/.esp/v6.0/esp-idf/components/esp_hal_clock P:/.esp/v6.0/esp-idf/components/esp_hal_dma P:/.esp/v6.0/esp-idf/components/esp_hal_gpio P:/.esp/v6.0/esp-idf/components/esp_hal_gpspi P:/.esp/v6.0/esp-idf/components/esp_hal_i2c P:/.esp/v6.0/esp-idf/components/esp_hal_i2s P:/.esp/v6.0/esp-idf/components/esp_hal_ieee802154 P:/.esp/v6.0/esp-idf/components/esp_hal_jpeg P:/.esp/v6.0/esp-idf/components/esp_hal_lcd P:/.esp/v6.0/esp-idf/components/esp_hal_ledc P:/.esp/v6.0/esp-idf/components/esp_hal_mcpwm P:/.esp/v6.0/esp-idf/components/esp_hal_mspi P:/.esp/v6.0/esp-idf/components/esp_hal_parlio P:/.esp/v6.0/esp-idf/components/esp_hal_pcnt P:/.esp/v6.0/esp-idf/components/esp_hal_pmu P:/.esp/v6.0/esp-idf/components/esp_hal_ppa P:/.esp/v6.0/esp-idf/components/esp_hal_rmt P:/.esp/v6.0/esp-idf/components/esp_hal_rtc_timer P:/.esp/v6.0/esp-idf/components/esp_hal_security P:/.esp/v6.0/esp-idf/components/esp_hal_timg P:/.esp/v6.0/esp-idf/components/esp_hal_touch_sens P:/.esp/v6.0/esp-idf/components/esp_hal_twai P:/.esp/v6.0/esp-idf/components/esp_hal_uart P:/.esp/v6.0/esp-idf/components/esp_hal_usb P:/.esp/v6.0/esp-idf/components/esp_hal_wdt P:/.esp/v6.0/esp-idf/components/esp_hid P:/.esp/v6.0/esp-idf/components/esp_http_client P:/.esp/v6.0/esp-idf/components/esp_http_server P:/.esp/v6.0/esp-idf/components/esp_https_ota P:/.esp/v6.0/esp-idf/components/esp_https_server P:/.esp/v6.0/esp-idf/components/esp_hw_support P:/.esp/v6.0/esp-idf/components/esp_lcd P:/.esp/v6.0/esp-idf/components/esp_libc P:/.esp/v6.0/esp-idf/components/esp_local_ctrl P:/.esp/v6.0/esp-idf/components/esp_mm P:/.esp/v6.0/esp-idf/components/esp_netif P:/.esp/v6.0/esp-idf/components/esp_netif_stack P:/.esp/v6.0/esp-idf/components/esp_partition P:/.esp/v6.0/esp-idf/components/esp_phy P:/.esp/v6.0/esp-idf/components/esp_pm P:/.esp/v6.0/esp-idf/components/esp_psram P:/.esp/v6.0/esp-idf/components/esp_ringbuf P:/.esp/v6.0/esp-idf/components/esp_rom P:/.esp/v6.0/esp-idf/components/esp_security P:/.esp/v6.0/esp-idf/components/esp_stdio P:/.esp/v6.0/esp-idf/components/esp_system P:/.esp/v6.0/esp-idf/components/esp_timer P:/.esp/v6.0/esp-idf/components/esp_trace P:/.esp/v6.0/esp-idf/components/esp_usb_cdc_rom_console P:/.esp/v6.0/esp-idf/components/esp_wifi P:/.esp/v6.0/esp-idf/components/espcoredump P:/.esp/v6.0/esp-idf/components/esptool_py P:/.esp/v6.0/esp-idf/components/fatfs P:/.esp/v6.0/esp-idf/components/freertos P:/.esp/v6.0/esp-idf/components/hal P:/.esp/v6.0/esp-idf/components/heap P:/.esp/v6.0/esp-idf/components/http_parser P:/.esp/v6.0/esp-idf/components/idf_test P:/.esp/v6.0/esp-idf/components/ieee802154 P:/.esp/v6.0/esp-idf/components/log P:/.esp/v6.0/esp-idf/components/lwip P:/EspServer/main P:/.esp/v6.0/esp-idf/components/mbedtls P:/EspServer/components/mdns P:/.esp/v6.0/esp-idf/components/nvs_flash P:/.esp/v6.0/esp-idf/components/nvs_sec_provider P:/.esp/v6.0/esp-idf/components/openthread P:/.esp/v6.0/esp-idf/components/partition_table P:/.esp/v6.0/esp-idf/components/perfmon P:/.esp/v6.0/esp-idf/components/protobuf-c P:/.esp/v6.0/esp-idf/components/protocomm P:/.esp/v6.0/esp-idf/components/pthread P:/.esp/v6.0/esp-idf/components/rt P:/.esp/v6.0/esp-idf/components/sdmmc P:/.esp/v6.0/esp-idf/components/soc P:/.esp/v6.0/esp-idf/components/spi_flash P:/.esp/v6.0/esp-idf/components/spiffs P:/.esp/v6.0/esp-idf/components/tcp_transport P:/.esp/v6.0/esp-idf/components/ulp P:/.esp/v6.0/esp-idf/components/unity P:/.esp/v6.0/esp-idf/components/vfs P:/.esp/v6.0/esp-idf/components/wear_levelling P:/.esp/v6.0/esp-idf/components/wpa_supplicant P:/.esp/v6.0/esp-idf/components/xtensa
+-- Configuring done (20.1s)
+-- Generating done (1.7s)
+-- Build files have been written to: P:/EspServer/build

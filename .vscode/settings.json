@@ -1,5 +1,5 @@
 {
-    "idf.currentSetup": "/home/arde/.espressif/v5.5.3/esp-idf",
+    "idf.currentSetup": "P:\\.esp\\v6.0\\esp-idf",
     "idf.openOcdConfigs": [
         "board/esp32s3-builtin.cfg"
     ],
@@ -7,5 +7,6 @@
         "IDF_TARGET": "esp32s3"
     },
     "idf.port": "/dev/ttyACM0",
-    "idf.flashType": "JTAG"
+    "idf.flashType": "JTAG",
+    "idf.portWin": "COM3"
 }

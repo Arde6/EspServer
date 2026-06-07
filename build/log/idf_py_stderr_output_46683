@@ -1,2 +1,0 @@
-Command: ninja add
-ninja: error: unknown target 'add', did you mean 'all'?

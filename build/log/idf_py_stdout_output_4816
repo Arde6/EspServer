@@ -1,0 +1,27 @@
+Command: C:\Espressif\tools\python\v6.0\venv\Scripts\python.exe P:\.esp\v6.0\esp-idf\tools/idf_monitor.py -p COM3 -b 115200 --toolchain-prefix xtensa-esp32s3-elf- --target esp32s3 --revision 0 P:\EspServer\build\EspServer.elf P:\EspServer\build\bootloader\bootloader.elf --force-color -m 'C:\Espressif\tools\python\v6.0\venv\Scripts\python.exe' 'P:\.esp\v6.0\esp-idf\tools\idf.py'
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x15 (USB_UART_CHIP_RESET),boot:0x20 (DOWNLOAD(USB/UART0))
+Saved PC:0x40041a76
+waiting for download
+[0;32mI (3105) HTTP_SERVER: Retrying to connect to WiFi...[0m
+[0;32mI (3115) wifi:new:<11,0>, old:<11,0>, ap:<255,255>, sta:<11,0>, prof:1, snd_ch_cfg:0x0[0m
+[0;32mI (3115) wifi:state: init -> auth (0xb0)[0m
+[0;32mI (3135) wifi:state: auth -> assoc (0x0)[0m
+[0;32mI (3145) wifi:state: assoc -> run (0x10)[0m
+[0;32mI (3185) wifi:connected with DNA-WIFI-4FF5, aid = 25, channel 11, BW20, bssid = 94:25:33:ec:4f:fc[0m
+[0;32mI (3185) wifi:security: WPA2-PSK, phy: bgn, rssi: -68[0m
+[0;32mI (3195) wifi:pm start, type: 1[0m
+
+[0;32mI (3195) wifi:dp: 1, bi: 102400, li: 3, scale listen interval from 307200 us to 307200 us[0m
+[0;32mI (3195) wifi:set rx beacon pti, rx_bcn_pti: 0, bcn_timeout: 25000, mt_pti: 0, mt_time: 10000[0m
+[0;32mI (3215) mdns_mem: mDNS task will be created from internal RAM[0m
+[0;32mI (3215) HTTP_SERVER: MDNS service started with hostname: s3super.local[0m
+[0;32mI (3395) wifi:AP's beacon interval = 102400 us, DTIM period = 1[0m
+[0;32mI (7745) esp_netif_handlers: sta ip: 192.168.101.106, mask: 255.255.255.0, gw: 192.168.101.1[0m
+[0;32mI (7745) HTTP_SERVER: Got IP: 192.168.101.106[0m
+[0;32mI (16615) wifi:<ba-add>idx:0 (ifx:0, 94:25:33:ec:4f:fc), tid:0, ssn:5, winSize:64[0m
+[0;33mW (16625) httpd_txrx: httpd_resp_send_err: 404 Not Found - Nothing matches the given URI[0m
+[0;33mW (16625) httpd_uri: httpd_uri: uri handler execution failed[0m
+[0;33mW (22245) httpd_txrx: httpd_resp_send_err: 404 Not Found - Nothing matches the given URI[0m
+[0;33mW (22255) httpd_uri: httpd_uri: uri handler execution failed[0m

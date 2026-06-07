@@ -1,2 +1,2 @@
-source /home/arde/Storage/Projects/EspServer/build/gdbinit/symbols
-source /home/arde/Storage/Projects/EspServer/build/gdbinit/connect
+source P:/EspServer/build/gdbinit/symbols
+source P:/EspServer/build/gdbinit/connect
