@@ -1,1 +1,4 @@
 secrets.h
+build/
+sdkconfig
+sdkconfig.old
